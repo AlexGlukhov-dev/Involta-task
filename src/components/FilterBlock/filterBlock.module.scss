@@ -1,0 +1,50 @@
+.filterBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.newsSourcesBtn {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: transparent;
+  border: none;
+  font-family: Arial, sans-serif;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.listView,
+.blockView {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.listView {
+  margin-right: 10px;
+}
+
+.activeLink {
+  color: var(--color-primary);;
+}
+
+.active {
+  fill: var(--color-primary);
+
+}

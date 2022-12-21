@@ -1,0 +1,39 @@
+{
+  "name": "involta-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate:rss": "node scripts/rss.mjs",
+    "prebuild": "npm run generate:rss"
+  },
+  "dependencies": {
+    "@next/font": "13.0.7",
+    "@reduxjs/toolkit": "^1.9.1",
+    "axios": "^1.2.1",
+    "classnames": "^2.3.2",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7",
+    "feed": "^4.2.2",
+    "gray-matter": "^4.0.3",
+    "next": "13.0.7",
+    "next-redux-wrapper": "^8.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-lines-ellipsis": "^0.15.3",
+    "react-paginate": "^8.1.4",
+    "react-redux": "^8.0.5",
+    "rss-to-json": "^2.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.57.0",
+    "stylelint": "^14.16.0",
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.3.0"
+  }
+}
