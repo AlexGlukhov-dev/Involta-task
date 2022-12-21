@@ -17,8 +17,6 @@
     "classnames": "^2.3.2",
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
-    "feed": "^4.2.2",
-    "gray-matter": "^4.0.3",
     "next": "13.0.7",
     "next-redux-wrapper": "^8.0.0",
     "react": "18.2.0",
